@@ -1,0 +1,31 @@
+section.area {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+
+  .container {
+    .heading {
+      text-align: center;
+    }
+
+    .subheading {
+      text-align: center;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+    }
+
+  }
+}
+
+@media screen and (max-width:768px) {
+  section.area {
+    .container {
+      .row {
+        grid-template-columns: 1fr
+      }
+    }
+  }
+}

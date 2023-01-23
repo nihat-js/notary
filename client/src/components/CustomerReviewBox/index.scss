@@ -1,0 +1,16 @@
+.box{
+  padding: 15px 10px;
+  header{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 16px;
+    .full-name{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .position{
+      color: #ccc;
+    }
+  }
+}

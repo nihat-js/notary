@@ -1,0 +1,13 @@
+.box {
+  padding: 40px 30px;
+  box-shadow:  0 2px 4px rgba(0,0,0,0.1) , 0 4px 8px rgba(0,0,0,0.25) ;
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  img {
+    width: 32px;
+    height: 32px;
+  }
+}

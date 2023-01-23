@@ -1,0 +1,13 @@
+footer{
+  height: 400px;
+  background: url('../../assets/img/bg-footer.jpg') ;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  p {
+    margin-top: 30px;
+    color : #fff;    
+    font-size: 20px;
+    text-align: center;
+  }
+}

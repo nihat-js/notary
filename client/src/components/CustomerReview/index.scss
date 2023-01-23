@@ -1,0 +1,30 @@
+section.customer-review {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+
+  .container {
+    .title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 30px;
+      color: #364459;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+  section.customer-review {
+    .container{
+      .row {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+}

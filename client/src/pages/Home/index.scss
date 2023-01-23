@@ -1,0 +1,127 @@
+.home-page {
+  section.hero {
+    color: #fff;
+    height: 800px;
+    background-image: url("../../assets//img/bg-hero.jpg");
+
+    .container {
+      .row {
+        height: 800px;
+        display: flex;
+        align-items: center;
+
+        .left-column {
+          max-width: 500px;
+
+          .heading {
+            font-size: 40px;
+            line-height: 1.25;
+            margin-bottom: 16px;
+          }
+
+          .subheading {
+            font-size: 20px;
+            line-height: 1.25;
+          }
+        }
+      }
+    }
+  }
+
+
+  section.provide {
+    padding: 40px 0;
+
+    .container {
+      .row {
+        display: grid;
+        grid-template-columns: 7fr 5fr;
+        gap: 40px;
+        align-items: center;
+
+        .left-column {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 15px;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .right-column {
+          .title {
+            margin-bottom: 18px;
+          }
+
+          .text {
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+  }
+
+
+  section.solution {
+    padding: 40px 0;
+
+    .container {
+      .row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+        .left-column {
+          figure {
+            img {
+              width: 100%;
+            }
+          }
+        }
+
+        .middle-column {
+          .title {
+            font-size: 32px;
+            color: #364459;
+            margin-bottom: 16px;
+
+          }
+
+          .text {
+            letter-spacing: 1px;
+            font-size: 16px;
+            line-height: 1.2;
+            margin-bottom: 16px;
+          }
+
+          .list {
+            margin-left: 12px;
+            list-style-type: square;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  section.provide {
+    .container {
+      .row {
+        grid-template-columns: 1fr  !important;
+      }
+    }
+  }
+  section.solution{
+    .container{
+      .row {
+        grid-template-columns: 1fr !important;
+
+      }
+    }
+  }
+}
+
+  
