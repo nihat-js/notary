@@ -1,23 +1,23 @@
 import './index.scss'
 
-import CustomerReviewBox from '../CustomerReviewBox/index'
+import CustomerReviewBox from './Box/index'
 
 const Index = () => {
   const customerReviews = [
     {
-      image : '',
+      image : 'https://icons.iconarchive.com/icons/thesquid.ink/free-flat-sample/256/support-icon.png',
       fullName : 'Lina Gold',
       position : 'Owner, Ford ',
       review : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum",
     },
     {
-      image : '',
+      image : 'https://icons.iconarchive.com/icons/thesquid.ink/free-flat-sample/256/support-icon.png',
       fullName : 'Mike Fisher',
       position : 'Owner, Ford',
       review : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum",
     },
     {
-      image : '',
+      image : 'https://icons.iconarchive.com/icons/thesquid.ink/free-flat-sample/256/support-icon.png',
       fullName : 'Sheen Yu ',
       position : 'Owner, Ford',
       review : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum",

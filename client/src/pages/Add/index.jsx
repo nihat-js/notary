@@ -77,15 +77,15 @@ export default function Index() {
             {({ errors, touched }) => (
               <Form>
                 <div className="input-group">
-                  <Field name="title" />
+                  <Field name="title" placeholder="Title" />
                   <ErrorMessage name="title" />
                 </div>
                 <div className="input-group">
-                  <Field name="subTitle" />
+                  <Field name="subTitle" placeholder="Sub title" />
                   <ErrorMessage name="subTitle" />
                 </div>
                 <div className="input-group">
-                  <Field name="image" />
+                  <Field name="image" placeholder="Image Source" />
                   <ErrorMessage name="image" />
                 </div>
 

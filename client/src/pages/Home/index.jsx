@@ -7,7 +7,7 @@ import CustomerReview from '../../components/CustomerReview/index'
 
 
 import AreaSection from '../../components/AreaSection/index'
-import CustomerReviewBox from '../../components/CustomerReviewBox/index'
+import CustomerReviewBox from '../../components/CustomerReview/Box/index'
 import imageProvide1 from '../../assets/img/provide-1.webp'
 import imageProvide2 from '../../assets/img/provide-2.webp'
 import imageSolution from '../../assets/img/solution-1.webp'
